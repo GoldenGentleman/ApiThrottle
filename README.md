@@ -21,12 +21,14 @@ dependencyResolutionManagement {
 }
 ```
 
-Add the dependency:
+Add the dependency. Because this is a multi-module KMP build, JitPack publishes
+it under the group `com.github.<user>.<repo>` with artifact id `api-throttle`
+(**not** the flat `com.github.<user>:<repo>` form):
 
 ```kotlin
 // build.gradle.kts
 commonMain.dependencies {
-    implementation("com.github.GoldenGentleman:ApiThrottle:0.1.0")
+    implementation("com.github.GoldenGentleman.ApiThrottle:api-throttle:0.1.0")
 }
 ```
 
