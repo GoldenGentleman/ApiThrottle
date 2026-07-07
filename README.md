@@ -1,7 +1,7 @@
 # ApiThrottle
 
 A tiny Kotlin Multiplatform rate-limiter and priority dispatcher for API calls.
-Zero dependencies beyond `kotlinx-coroutines`. Targets JVM, Android, and iOS.
+Zero dependencies beyond `kotlinx-coroutines`. Targets JVM and Android.
 
 - **Token bucket** — caps how many requests *start* per second (starts full, so the first burst is immediate).
 - **Semaphore** — caps how many requests are *in flight* at once.

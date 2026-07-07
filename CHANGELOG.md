@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   immediate first burst).
 - Semaphore capping the number of in-flight requests.
 - `HIGH`/`LOW` priority queue so foreground calls jump ahead of background batches.
-- Kotlin Multiplatform targets: JVM, Android, and iOS.
+- Kotlin Multiplatform targets: JVM and Android.
 
 [Unreleased]: https://github.com/GoldenGentleman/ApiThrottle/compare/0.1.0...HEAD
 [0.1.0]: https://github.com/GoldenGentleman/ApiThrottle/releases/tag/0.1.0

@@ -172,6 +172,6 @@ class ApiThrottle(
     }
 
     // Multiplatform wall-clock in epoch millis — replaces the JVM-only
-    // System.currentTimeMillis() so this class works on Android, JVM, and iOS.
+    // System.currentTimeMillis() so this class works on both JVM and Android.
     private fun nowMs(): Long = Clock.System.now().toEpochMilliseconds()
 }
